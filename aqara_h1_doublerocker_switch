@@ -13,9 +13,6 @@ blueprint:
         device:
           integration: zha
           manufacturer: LUMI
-          entity:
-            domain: switch
-            device_class: battery
 
     # Left button
     button_single_press_left:
