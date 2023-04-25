@@ -11,9 +11,8 @@ blueprint:
       description: Aqara H1 (WRS-R02) Wireless Remote Switch (Double Rocker)
       selector:
         device:
-          integration: zha
           manufacturer: LUMI
-
+          
     # Left button
     button_single_press_left:
       name: Single Press Left
