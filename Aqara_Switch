@@ -6,6 +6,9 @@ blueprint:
     switch_id:
       name: Binary sensor entity
       description: The binary_sensor used to trigger the automation
+      selector:
+        entity:
+          domain: switch
     single_click_action:
       name: Single Click action
       description: The action(s) to launch for a single short click
