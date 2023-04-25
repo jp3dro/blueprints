@@ -1,11 +1,11 @@
 blueprint:
-  name: Aqara switch binary_sensor
+  name: Aqara switch
   description: Bind action to Aqara switch
   domain: automation
   input:
     switch_id:
-      name: Binary sensor entity
-      description: The binary_sensor used to trigger the automation
+      name: Switch entity
+      description: The switch used to trigger the automation
       selector:
         entity:
           domain: switch
