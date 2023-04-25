@@ -37,7 +37,7 @@ trigger:
   - platform: event
     event_type: zha_event
     event_data:
-      device_id: !input aqara_mini_switch
+      device_id: !input aqara_h1_switch
 
 action:
   - variables:
